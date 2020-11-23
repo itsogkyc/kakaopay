@@ -51,16 +51,25 @@
 >도메인 ( www.petclinic.com ) 으로 서비스에 접속 가능
 
 ### 실행 가이드
+
+1. 깃 다운로드
 <pre>
 <code>
-1. 깃 다운로드
 $ git clone https://github.com/itsogkyc/kakaopay.git
+</code>
+</pre>
 
 2. 어플리케이션 도커 이미지 생성
+<pre>
+<code>
 $ cd kakaopay
 $ docker build -t petclinic:v1 .
+</code>
+</pre>
 
 3. 쿠버네티스 오브젝트 선언
+<pre>
+<code>
 $ kubectl apply -f mysql.yaml
 $ kubectl apply -f ingress.yaml
 $ kubectl apply -f apps.yaml
