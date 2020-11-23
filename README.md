@@ -18,8 +18,6 @@
 
 #### Requirements
 - gradle을 사용하여 어플리케이션과 도커이미지를 빌드한다.   
-<details><summary>hihi
-   </summary>hihi</details>
 - 어플리케이션의 log는 host의 /logs 디렉토리에 적재되도록 한다.   
    => application.properties에 "logging.file.path"를 추가해 어플리케이션의 로그를 남게 설정   
    => 어플리케이션 파드에 hostpath볼륨을 마운트해 로그를 호스트에 저장하게 구현   
