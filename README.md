@@ -1,12 +1,12 @@
-﻿스프링(Spring) 웹 개발 프로젝트 [게시판]
+﻿카카오페이 Devops 사전과제
 ===================
 
 ----------
 
-개발환경 및 기능소개
+개발환경 및 요구사항
 -------------
 >Note :
->스프링 프레임워크를 사용한 MVC(Model-View-Control) 구조 게시판 개발
+>웹 어플리케이션 spring-petclinic-data-jdbc을 kubernetes 환경에서 실행
 
 #### Develop Environment
 
