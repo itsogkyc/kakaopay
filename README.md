@@ -56,8 +56,13 @@
 #### **Model** 
  * boardService : 실질적인 비즈니스 로직을 담는 클래스로서 데이터베이스와 관련된 DATA가공을 책임지는 
  컴포넌트
-
+<pre>
+<code>
+1. 깃 다운로드
+$ 
 $ docker build -t petclinic:v1 .
+</code>
+</pre>
 
 
 ### 문의사항
